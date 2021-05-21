@@ -7,7 +7,7 @@ spec:
   version: 1
   storageDriverName: ontap-nas
   managementLIF: 10.193.181.75
-  backendName: ontap-nas-backend
+  backendName: ontap-nas-backend-2
   svm: svm1
   credentials:
     name: backend-tbc-ontap-secret
