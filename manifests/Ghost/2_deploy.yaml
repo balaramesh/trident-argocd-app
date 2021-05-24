@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: blog
-        image: ghost:2.6-alpine
+        image: ghost:latest
         ports:
         - containerPort: 2368
         env:
@@ -30,4 +30,4 @@ spec:
       volumes:
       - name: content
         persistentVolumeClaim:
-          claimName: blog-content-from-snap
+          claimName: blog-content
